@@ -23,40 +23,35 @@
 
 * A small, self-contained “smart button board” for experiments or IoT control.
 
-* 
+# Circuits
 
+## analog-basics
+- LED (Getting started with KiCad basics essential guide)
+- LED Heart Blinker  
+  - 555 Timer (astable mode)  
+  - 14 LEDs heartbeat effect  
+  - Designed in KiCad, powered by 9V battery  
+- Audio Sync LED Project  
 
-├── analog-basics/
-├── digital-logic/
-├── signal-conditioning/
-└── power-circuits/
+## digital-logic
+- Google Dino Game Player using LDR sensors (dinorun4)
+- Smart Button Board (IoT control / programmable input)
+- Beat-Triggered LED Bracelet for concerts
 
+## signal-conditioning
+- Ultrasonic Sensor Distance & Depth Measurement (Arduino)
+- Light-following / Dark-avoiding Robot
+- LDR sensing modules
 
-circuits/
-├── analog-basics/
-│   ├── LED (Getting started with KiCad basics essential guide)
-│   ├── LED Heart Blinker (555 Timer, astable mode, 14 LEDs heartbeat effect)
-│   ├── Audio Sync LED Project
-│
-├── digital-logic/
-│   ├── Google Dino Game Player using LDR sensors (dinorun4)
-│   ├── Smart Button Board (IoT control / programmable input device)
-│   ├── Beat-Triggered LED Bracelet for concerts
-│
-├── signal-conditioning/
-│   ├── Ultrasonic Sensor Distance & Depth Measurement (Arduino)
-│   ├── Light-following / Dark-avoiding Robot
-│   ├── LDR-based sensing modules (can support Dino project as submodule)
-│
-├── power-circuits/
-│   ├── 9V Battery powered LED systems (Heart Blinker base)
-│   ├── Compact ESP32 Standalone Sensor Board (power regulation + MCU)
-│
-├── embedded-systems/
-│   ├── ESP32 Sensor Board (standalone system)
-│   ├── Mini Photobooth (camera + storage + control logic)
-│   ├── Beat-Triggered LED Bracelet (if using MCU/audio processing)
-│
-└── mechanical-integration/
-    ├── Mini Photobooth (case-integrated build)
-    ├── Wearables (LED Bracelet enclosure + ergonomics)
+## power-circuits
+- 9V Battery powered LED systems
+- ESP32 standalone sensor board (power + regulation)
+
+## embedded-systems
+- ESP32 Sensor Board (standalone system)
+- Mini Photobooth (camera + control system)
+- Beat-Triggered LED Bracelet (MCU-based version)
+
+## mechanical-integration
+- Mini Photobooth (case-integrated design)
+- Wearable LED Bracelet (enclosure + ergonomics)
