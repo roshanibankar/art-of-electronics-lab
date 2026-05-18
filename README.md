@@ -1,87 +1,114 @@
-the-art-of-electronics-lab/
-│
-├── rc-filters/
-│   ├── rc-led-fade-circuit/
-│   ├── low-pass-filter-potentiometer/
-│   ├── high-pass-audio-filter/
-│   ├── pwm-smoothing-experiment/
-│   ├── capacitor-charge-discharge/
-│   ├── frequency-cutoff-experiment/
-│   └── lights-audio-sync/
-│
-├── opamp-circuits/
-│   ├── light-threshold-detector/
-│   ├── battery-voltage-indicator/
-│   ├── microphone-amplifier/
-│   ├── comparator-pot-reference/
-│   ├── schmitt-trigger-cleaner/
-│   └── peak-detector/
-│
-├── signal-conditioning/
-│   ├── thermistor-voltage-scaling/
-│   ├── ldr-stabilization-circuit/
-│   ├── ultrasonic-sensor-filtering/
-│   ├── accelerometer-smoothing/
-│   ├── voltage-divider-scaling/
-│   ├── analog-sensor-protection/
-│   └── dinorun4-ldr-input-system/
-│
-├── adc-noise-analysis/
-│   ├── floating-adc-readings/
-│   ├── adc-capacitor-stability/
-│   ├── moving-average-filter/
-│   ├── oversampling-experiment/
-│   ├── usb-vs-battery-comparison/
-│   └── ground-noise-experiment/
-│
-├── debouncing/
-│   ├── button-bounce-scope-capture/
-│   ├── rc-hardware-debounce/
-│   ├── software-debounce/
-│   ├── interrupt-debounce/
-│   ├── rotary-encoder-debounce/
-│   └── multi-button-debounce-tester/
-│
-├── timing-and-measurement/
-│   ├── ultrasonic-echo-timing/
-│   ├── reaction-timer/
-│   ├── pwm-duty-cycle-measurement/
-│   ├── frequency-counter/
-│   ├── servo-pulse-timing/
-│   ├── timer-interrupt-led-blinker/
-│   ├── stopwatch-hardware-timers/
-│   ├── pulse-width-measurement/
-│   └── ultrasonic-depth-measurement/
-│
-├── power-electronics/
-│   ├── buck-converter-efficiency/
-│   ├── ldo-thermal-analysis/
-│   ├── load-transient-response/
-│   ├── mosfet-high-side-switching/
-│   ├── battery-charging-basics/
-│   ├── inrush-current-limiter/
-│   ├── power-sequencing/
-│   ├── regulator-noise-analysis/
-│   ├── dcdc-ripple-measurement/
-│   └── current-sense-amplifier/
-│
-├── digital-interfaces/
-│   ├── uart-noise-injection/
-│   ├── i2c-pullup-study/
-│   ├── spi-clock-analysis/
-│   ├── logic-analyzer-decoding/
-│   ├── long-wire-i2c-failure/
-│   ├── rs485-basics/
-│   ├── can-bus-monitoring/
-│   ├── uart-baud-error/
-│   ├── clock-signal-integrity/
-│   └── signal-ringing-termination/
-│
-├── pcb-design/
-│   ├── valentines-heart-pcb/
-│   └── led-beginners-project/
-│
-├── guides/
-    ├── kicad-guide/
-    ├── altium-guide/
-    └── fusion360-guide/
+# The Art of Electronics Lab
+
+Real-world analog and digital electronics experiments focused on measurement, debugging, signal analysis, PCB design, embedded systems and mixed-signal hardware development.
+
+---
+
+# RC Filters
+
+- RC LED Fade Circuit  
+- Low-Pass Filter for Noisy Potentiometer  
+- High-Pass Audio Filter  
+- PWM Smoothing Experiment  
+- Capacitor Charge/Discharge Timing  
+- Frequency Cutoff Experiment  
+
+---
+
+# Op-Amp Circuits
+
+- Light Threshold Detector  
+- Battery Voltage Indicator  
+- Simple Microphone Amplifier  
+- Comparator with Potentiometer Reference  
+- Schmitt Trigger Switch Cleaner  
+- Peak Detector  
+
+---
+
+# Signal Conditioning
+
+- Thermistor Voltage Scaling  
+- LDR Stabilization Circuit  
+- Ultrasonic Sensor Filtering  
+- Accelerometer Smoothing Circuit  
+- Voltage Divider Scaling Experiment  
+- Analog Sensor Protection Circuit  
+- DinoRun4 — LDR Input System  
+- Lights Audio Sync  
+
+---
+
+# ADC Noise Analysis
+
+- Floating ADC Readings Experiment  
+- Capacitor Effect on ADC Stability  
+- Moving Average Filter Test  
+- Oversampling Experiment  
+- USB vs Battery ADC Comparison  
+- Ground Noise Experiment  
+
+---
+
+# Debouncing
+
+- Button Bounce Oscilloscope Capture  
+- RC Hardware Debounce  
+- Software Debounce Test  
+- Interrupt Debounce Experiment  
+- Rotary Encoder Debounce  
+- Multi-Button Debounce Tester  
+
+---
+
+# Timing and Measurement
+
+- Ultrasonic Echo Timing  
+- Reaction Timer  
+- PWM Duty-Cycle Measurement  
+- Frequency Counter  
+- Servo Pulse Timing  
+- Timer Interrupt LED Blinker  
+- Stopwatch Using Hardware Timers  
+- Pulse-Width Measurement  
+- Ultrasonic Depth Measurement  
+- Valentine's Heart PCB  
+
+---
+
+# Power Electronics
+
+- Buck Converter Efficiency Experiment  
+- LDO Thermal Analysis  
+- Load Transient Response Test  
+- MOSFET High-Side Switching  
+- Battery Charging Basics  
+- Inrush Current Limiter  
+- Power Sequencing Experiment  
+- Voltage Regulator Noise Analysis  
+- DC-DC Converter Ripple Measurement  
+- Current Sense Amplifier Experiment  
+
+---
+
+# Digital Interfaces
+
+- UART Noise Injection Experiment  
+- I2C Pull-Up Resistance Study  
+- SPI Clock Timing Analysis  
+- Logic Analyzer Protocol Decoding  
+- Long-Wire I2C Failure Analysis  
+- RS485 Differential Signaling Basics  
+- CAN Bus Message Monitoring  
+- UART Baud Rate Error Experiment  
+- Clock Signal Integrity Measurement  
+- Signal Ringing and Termination Experiment  
+
+---
+
+# Guides
+
+- KiCad Guide  
+- Altium Guide  
+- Fusion360 Guide  
+
